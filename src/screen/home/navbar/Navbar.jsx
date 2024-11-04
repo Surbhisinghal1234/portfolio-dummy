@@ -22,23 +22,23 @@ const closeMenu = () =>{
         <ul ref={menuRef} className="nav-menu fixed md:static flex-col md:flex-row items-start md:items-center top-0 md:top-auto  flex gap-[3rem] text-[1.2rem] w-[22rem] h-full md:w-auto md:h-auto bg-[#1F0016] md:bg-transparent z-20 transition-right duration-500 right-[-22rem] ">
             <RestaurantMenuIcon onClick={closeMenu}   className="nav-mob-close block md:invisible  relative top-[30px] left-[290px] w-[30px] "/>
           <li className="pl-[2rem] md:pl-0">
-            <AnchorLink className="anchor-link" href="#home">
+            <AnchorLink className="anchor-link" onClick={closeMenu} href="#home">
               Home
             </AnchorLink>
           </li>
          
           <li className="pl-[2rem] md:pl-0">
-            <AnchorLink className="anchor-link" offset={50} href="#project">
+            <AnchorLink className="anchor-link" onClick={closeMenu} offset={50} href="#project">
               Projects
             </AnchorLink>
           </li>
           <li className="pl-[2rem] md:pl-0">
-            <AnchorLink className="anchor-link" offset={50} href="#skill">
+            <AnchorLink className="anchor-link" onClick={closeMenu} offset={50} href="#skill">
               Skills
             </AnchorLink>
           </li>
           <li className="pl-[2rem] md:pl-0">
-            <AnchorLink className="anchor-link" offset={50} href="#contact">
+            <AnchorLink className="anchor-link" onClick={closeMenu} offset={50} href="#contact">
               Contact
             </AnchorLink>
           </li>
