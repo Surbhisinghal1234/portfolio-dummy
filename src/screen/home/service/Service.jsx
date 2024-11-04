@@ -31,7 +31,7 @@ const Service = () => {
 
   return (
     <div className="my-[6rem]" id="project">
-      <h1 className="text-[3rem] font-bold text-center mb-[2rem]">
+      <h1 className="text-[2rem] md:text-[3rem] font-bold text-center mb-[2rem]">
         My Projects
       </h1>
 

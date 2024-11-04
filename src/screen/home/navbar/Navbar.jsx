@@ -16,7 +16,7 @@ const closeMenu = () =>{
 
   return (
     <>
-      <div className="navbar font-outfit flex justify-between items-center md:items-start py-4 ">
+      <div className="navbar font-outfit flex justify-between items-center md:items-center py-4 ">
         <h1 className="text-[2.5rem]">Portfolio</h1>
         <MenuIcon onClick={openMenu} className="nav-mob-open block md:invisible fixed right-[30px] text-2xl" />
         <ul ref={menuRef} className="nav-menu fixed md:static flex-col md:flex-row items-start md:items-center top-0 md:top-auto  flex gap-[3rem] text-[1.2rem] w-[22rem] h-full md:w-auto md:h-auto bg-[#1F0016] md:bg-transparent z-20 transition-right duration-500 right-[-22rem] ">

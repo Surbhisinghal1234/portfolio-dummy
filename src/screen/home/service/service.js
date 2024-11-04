@@ -2,6 +2,10 @@
 import profileImage from "../../../assets/hero/profile.jpg";
 import pokemonImg from "../../../assets/service/pokemon.png"
 import netflixImg from "../../../assets/service/netflix.png"
+import clockImg from "../../../assets/service/clock.png"
+
+
+
 import formImg from "../../../assets/service/form.png"
 import teslaImg from "../../../assets/service/tesla.png"
 import textNoteImg from "../../../assets/service/textNote.png"
@@ -51,6 +55,15 @@ const jsProjects2 = [
     buttonText2: 'Github',
     vercelLink: "https://shopping-list-eight-ashen.vercel.app/",
     githubLink: "https://github.com/Surbhisinghal1234/Shopping-list.git"
+  },
+  {
+    image: clockImg,
+    heading: "TimeSync",
+    paragraph: 'I created an interactive and colorful clock using HTML, CSS, and JavaScript. This clock displays each second, minute, and hour with vibrant colors and smooth animations, providing users with a unique and visually appealing experience.',
+    buttonText1: 'Explore',
+    buttonText2: 'Github',
+    vercelLink: "https://clock-eight-wine.vercel.app/",
+    githubLink: "https://github.com/Surbhisinghal1234/clock.git"
   },
   {
     image: expenseImg,
